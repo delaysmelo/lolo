@@ -2,6 +2,19 @@
 	margin: 0;
 	padding: 0;
 }
+
+body {
+	font-size: 1.2em;
+	background-color: #fff;
+	color: #555;
+}
+
+
+p {
+	padding: 0 0 20px 0;
+	line-height: 1.7em;
+}
+
 input[type="text"], input[type="password"], input[type="search"] {
 	color: #5d5d5d;
 	width: 60%;
@@ -27,10 +40,14 @@ h2 {
 	font-size: 140%;
 }
 
-
+a, a:hover {
+	outline: none;
+	text-decoration: underline;
+	color: #aeb002;
+}
 
 .header	{
-	background-color: darkslateblue;
+	background-color: rgb(163, 45, 157);
 	height: 177px;
 	font-size: 0.8em;
 	margin-left: 0px;
@@ -130,4 +147,10 @@ ul.menu li a:hover {
 
 .sidebar h2 {
 	color: #136cb2;
+}
+
+.lables_passreg_text {
+	font-size: 0.7em;
+	margin-top: 3%;
+	margin-left: 2%
 }
